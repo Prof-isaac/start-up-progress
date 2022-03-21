@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background: lightgray;
+  height: 800px;
+
+  .start-up-progress {
+    background: white;
+    padding: 20px;
+    width: 250px;
+
+    &__title {
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    &__level {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__steps {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    &__task {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.wrapper {
+  display: flex;
+  &__checkbox {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+  }
+}
